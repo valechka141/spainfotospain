@@ -1356,3 +1356,69 @@ p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+/*=========================================
+	Our Works
+==========================================*/
+
+.work-filter {
+  margin-bottom: 35px;
+}
+
+.work-filter ul li {
+    display: inline-block;
+}
+
+.work-filter ul li a {
+  color: #fb6e14;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 17px;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+.work-filter ul li a:hover,
+.work-filter ul li a.active {
+  background-color: #fb6e14;
+  border-radius: 6px;
+  color: #fff;
+  padding: 5px 17px;
+}
+
+.mix {
+    display: none;
+}
+
+.work-item {
+    /*float: right;*/
+    
+    width: 25%;
+    position: relative;
+    
+}
+
+.work-item > img {
+  display: block;
+/*  height: auto;*/
+  max-width: 400px;
+  max-height:300px;
+}
+
+.grid {
+    text-align: center
+}
+
+.element-item {
+
+    /*display: flex;*/
+    /*! max-width: 1024px;*/ 
+/*    margin-right: auto;
+    margin-left: auto;*/
+    
+    margin: 10px 10px;
+
+}
